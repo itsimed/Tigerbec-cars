@@ -60,7 +60,7 @@ const ComingSoonSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Titre centré en haut */}
         <h2 
-          className={`text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 transform transition-all duration-1000 ${
+          className={`text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-12 text-white transform transition-all duration-1000 ${
             inView ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
           }`}
         >
@@ -73,14 +73,8 @@ const ComingSoonSection = () => {
           <div className={`text-white space-y-6 transform transition-all duration-1000 delay-300 w-full flex flex-col items-center text-center ${
             inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
           }`}>
-            <div className="space-y-4 text-lg sm:text-xl text-gray-300 max-w-lg">
-              <div className="font-mono">
-                <span className="bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-                  {futureText.substring(0, textIndex)}
-                </span>
-                <span className="animate-pulse inline-block ml-1 text-purple-400">|</span>
-              </div>
-              <p className="mt-6">{t('comingSoon.description')}</p>
+            <div className="space-y-4 text-xl sm:text-2xl text-gray-300 max-w-lg">
+              <p className="mt-6 whitespace-pre-line" dangerouslySetInnerHTML={{ __html: t('comingSoon.description') }}></p>
             </div>
           </div>
 

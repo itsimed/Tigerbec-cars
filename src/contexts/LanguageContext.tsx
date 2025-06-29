@@ -163,7 +163,10 @@ const translations: Translations = {
   // Coming Soon Section
   'comingSoon.title': { fr: 'BIENTÔT DISPONIBLE', en: 'COMING SOON' },
   'comingSoon.future': { fr: 'Le futur est là.', en: 'The future is here.' },
-  'comingSoon.description': { fr: 'Tiger Canada Trust LTD révolutionne l\'industrie automobile avec une technologie de pointe et un service client inégalé. Restez à l\'écoute pour une expérience qui redéfinira vos attentes.', en: 'Tiger Canada Trust LTD is revolutionizing the automotive industry with cutting-edge technology and unparalleled customer service. Stay tuned for an experience that will redefine your expectations.' }
+  'comingSoon.description': { 
+    fr: 'Oubliez tout ce que vous pensiez savoir sur l\'achat automobile.\nTiger Canada Trust LTD redéfinit les règles du jeu.\nUne plateforme innovante, une transparence totale, et un service haut de gamme — tout cela pour une expérience fluide, rapide et sans stress.\nQue vous achetiez ou vendiez, vous êtes entre de bonnes mains.\nPréparez-vous à entrer dans une nouvelle dimension de confiance, de technologie et de performance.\nL\'avenir de l\'automobile commence ici. Et il porte un nom : <span class="text-red-500">Tiger Canada Trust LTD</span>.',
+    en: 'Forget everything you thought you knew about buying cars.\nTiger Canada Trust LTD is redefining the rules of the game.\nAn innovative platform, total transparency, and premium service — all for a smooth, fast, and stress-free experience.\nWhether you\'re buying or selling, you\'re in good hands.\nPrepare to enter a new dimension of trust, technology, and performance.\nThe future of automotive begins here. And it has a name: <span class="text-red-500">Tiger Canada Trust LTD</span>.'
+  }
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);

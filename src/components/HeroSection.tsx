@@ -74,13 +74,10 @@ const HeroSection: React.FC = () => {
                   const catalogSection = document.getElementById('catalog');
                   catalogSection?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="group relative px-6 sm:px-8 py-2.5 sm:py-3 border border-white text-white hover:bg-white hover:text-black transition-all duration-500 rounded flex items-center gap-2 overflow-hidden text-sm sm:text-base"
+                className="group relative px-6 sm:px-8 py-2.5 sm:py-3 text-white transition-all duration-500 rounded flex items-center gap-2 overflow-hidden text-sm sm:text-base"
               >
-                {/* Button Background Animation */}
-                <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                
                 {/* Button Content */}
-                <span className="relative z-10 transition-colors duration-300">
+                <span className="relative z-10">
                   {t('hero.cta.scrollDown')}
                 </span>
                 <svg className="relative z-10 w-4 h-4 transform group-hover:translate-y-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
