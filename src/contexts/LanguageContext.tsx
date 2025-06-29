@@ -151,14 +151,19 @@ const translations: Translations = {
   // Common
   'common.loading': { fr: 'Chargement...', en: 'Loading...' },
   'common.error': { fr: 'Une erreur est survenue', en: 'An error occurred' },
-  'common.seeMore': { fr: 'Découvrir', en: 'Discover' },
+  'common.seeMore': { fr: 'Voir Plus', en: 'See More' },
   'common.km': { fr: 'km', en: 'miles' },
   'common.automatic': { fr: 'Automatique', en: 'Automatic' },
   'common.manual': { fr: 'Manuelle', en: 'Manual' },
   'common.gasoline': { fr: 'Essence', en: 'Gasoline' },
   'common.diesel': { fr: 'Diesel', en: 'Diesel' },
   'common.electric': { fr: 'Électrique', en: 'Electric' },
-  'common.hybrid': { fr: 'Hybride', en: 'Hybrid' }
+  'common.hybrid': { fr: 'Hybride', en: 'Hybrid' },
+
+  // Coming Soon Section
+  'comingSoon.title': { fr: 'BIENTÔT DISPONIBLE', en: 'COMING SOON' },
+  'comingSoon.future': { fr: 'Le futur est là.', en: 'The future is here.' },
+  'comingSoon.description': { fr: 'Tiger Canada Trust LTD révolutionne l\'industrie automobile avec une technologie de pointe et un service client inégalé. Restez à l\'écoute pour une expérience qui redéfinira vos attentes.', en: 'Tiger Canada Trust LTD is revolutionizing the automotive industry with cutting-edge technology and unparalleled customer service. Stay tuned for an experience that will redefine your expectations.' }
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);

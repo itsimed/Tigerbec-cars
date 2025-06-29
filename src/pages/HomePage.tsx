@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import CatalogSection from '../components/CatalogSection';
+import ComingSoonSection from '../components/ComingSoonSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 import { assets } from '../config/assets';
@@ -15,6 +16,7 @@ const HomePage: React.FC = () => {
       <HeroSection />
       <AboutSection />
       <CatalogSection />
+      <ComingSoonSection />
       <ContactSection />
       <Footer />
     </div>
